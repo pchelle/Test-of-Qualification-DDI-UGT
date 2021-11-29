@@ -31,6 +31,14 @@ https://github.com/Open-Systems-Pharmacology/OSP-Qualification-Reports
      * [Atazanavir - Raltegravir DDI](#atazanavir---raltegravir-ddi)
      * [Mefenamic acid - Dapagliflozin DDI](#mefenamic-acid---dapagliflozin-ddi)
  * [2 Qualification of Use Case UGT-mediated DDI](#2-qualification-of-use-case-ugt-mediated-ddi)
+   * [Mechanism](#mechanism)
+     * [Reversible_Inhibition](#reversible_inhibition)
+   * [Perpetrator](#perpetrator)
+     * [Atazanavir](#atazanavir)
+     * [Mefenamic Acid](#mefenamic-acid)
+   * [Victim](#victim)
+     * [Raltegravir](#raltegravir)
+     * [Dapagliflozin](#dapagliflozin)
  * [3 Concentration-Time Profiles](#3-concentration-time-profiles)
    * [3.1 Atazanavir - Raltegravir DDI](#31-atazanavir---raltegravir-ddi)
    * [3.2 Mefenamic acid - Dapagliflozin DDI](#32-mefenamic-acid---dapagliflozin-ddi)
@@ -154,28 +162,28 @@ The mefenamic acid / dapagliflozin interaction was evaluated using 1 clinical DD
 Figure 1: UGT1A1 and UGT1A9 Inhibition DDI
 
 
-![](006_section_2/plot-DDIRatio-1-all-AUC-predictedVsObserved.png)
+![](006_section_2/plot-DDIRatio-1-AUC-predictedVsObserved.png)
 
 
 Figure 2: UGT1A1 and UGT1A9 Inhibition DDI
 
 
-![](006_section_2/plot-DDIRatio-1-all-AUC-residualsVsObserved.png)
+![](006_section_2/plot-DDIRatio-1-AUC-residualsVsObserved.png)
 
 
 Figure 3: UGT1A1 and UGT1A9 Inhibition DDI
 
 
-![](006_section_2/plot-DDIRatio-1-all-CMAX-predictedVsObserved.png)
+![](006_section_2/plot-DDIRatio-1-CMAX-predictedVsObserved.png)
 
 
 Figure 4: UGT1A1 and UGT1A9 Inhibition DDI
 
 
-![](006_section_2/plot-DDIRatio-1-all-CMAX-residualsVsObserved.png)
+![](006_section_2/plot-DDIRatio-1-CMAX-residualsVsObserved.png)
 
 
-Table 1: GMFE for UGT1A1 and UGT1A9 Inhibition DDI DDIRatio-1-all
+Table 1: GMFE for UGT1A1 and UGT1A9 Inhibition DDI DDIRatio-1
 
 
 |PK parameter |GMFE |
@@ -184,7 +192,7 @@ Table 1: GMFE for UGT1A1 and UGT1A9 Inhibition DDI DDIRatio-1-all
 |CMAX         |1.10 |
 
 
-Table 2: Summary table for UGT1A1 and UGT1A9 Inhibition DDI DDIRatio-1-all AUC
+Table 2: Summary table for UGT1A1 and UGT1A9 Inhibition DDI DDIRatio-1 AUC
 
 
 |AUC                          | Number| Ratio [%]|
@@ -194,7 +202,7 @@ Table 2: Summary table for UGT1A1 and UGT1A9 Inhibition DDI DDIRatio-1-all AUC
 |Points within 2 fold         |      5|       100|
 
 
-Table 3: Summary table for UGT1A1 and UGT1A9 Inhibition DDI DDIRatio-1-all CMAX
+Table 3: Summary table for UGT1A1 and UGT1A9 Inhibition DDI DDIRatio-1 CMAX
 
 
 |CMAX                         | Number| Ratio [%]|
@@ -202,6 +210,12 @@ Table 3: Summary table for UGT1A1 and UGT1A9 Inhibition DDI DDIRatio-1-all CMAX
 |Points total                 |      5|        -|
 |Points within Guest *et al.* |      4|        80|
 |Points within 2 fold         |      5|       100|
+
+
+## Mechanism
+
+
+### Reversible_Inhibition
 
 
 Figure 5: UGT1A1 and UGT1A9 Inhibition DDI - Reversible_Inhibition
@@ -257,6 +271,12 @@ Table 6: Summary table for UGT1A1 and UGT1A9 Inhibition DDI DDIRatio-1-mechanism
 |Points within 2 fold         |      5|       100|
 
 
+## Perpetrator
+
+
+### Atazanavir
+
+
 Figure 9: UGT1A1 and UGT1A9 Inhibition DDI - Atazanavir
 
 
@@ -308,6 +328,9 @@ Table 9: Summary table for UGT1A1 and UGT1A9 Inhibition DDI DDIRatio-1-perpetrat
 |Points total                 |      4|        -|
 |Points within Guest *et al.* |      3|        75|
 |Points within 2 fold         |      4|       100|
+
+
+### Mefenamic Acid
 
 
 Figure 13: UGT1A1 and UGT1A9 Inhibition DDI - Mefenamic Acid
@@ -363,6 +386,12 @@ Table 12: Summary table for UGT1A1 and UGT1A9 Inhibition DDI DDIRatio-1-perpetra
 |Points within 2 fold         |      1|       100|
 
 
+## Victim
+
+
+### Raltegravir
+
+
 Figure 17: UGT1A1 and UGT1A9 Inhibition DDI - Raltegravir
 
 
@@ -414,6 +443,9 @@ Table 15: Summary table for UGT1A1 and UGT1A9 Inhibition DDI DDIRatio-1-victim-R
 |Points total                 |      4|        -|
 |Points within Guest *et al.* |      3|        75|
 |Points within 2 fold         |      4|       100|
+
+
+### Dapagliflozin
 
 
 Figure 21: UGT1A1 and UGT1A9 Inhibition DDI - Dapagliflozin
